@@ -24,7 +24,6 @@
     overflow: hidden;
   }
   .v120_27 {
-    width: 38px;
     color: rgba(0,0,0,1);
     position: absolute;
     top: 189px;
@@ -80,11 +79,11 @@
     text-align: left;
   }
   .v120_30 {
-    width: 47px;
+
     color: rgba(0,0,0,1);
     position: absolute;
     top: 447px;
-    left: 173px;
+    left: 150px;
     font-family: Roboto;
     font-weight: Regular;
     font-size: 14px;
