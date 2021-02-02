@@ -1,0 +1,116 @@
+* {
+    overflow-x: hidden;
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+  .v120_25 {
+    width: 375px;
+    height: 812px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .v120_26 {
+    width: 280px;
+    height: 358px;
+    background: rgba(196,196,196,1);
+    opacity: 1;
+    position: absolute;
+    top: 131px;
+    left: 49px;
+    overflow: hidden;
+  }
+  .v120_27 {
+    width: 38px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 189px;
+    left: 172px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v120_28 {
+    width: 203px;
+    height: 43px;
+    background: rgba(245,236,236,1);
+    opacity: 1;
+    position: absolute;
+    top: 325px;
+    left: 89px;
+    overflow: hidden;
+  }
+  .v120_37 {
+    width: 37px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 346px;
+    left: 94px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v120_29 {
+    width: 203px;
+    height: 43px;
+    background: rgba(245,236,236,1);
+    opacity: 1;
+    position: absolute;
+    top: 267px;
+    left: 89px;
+    overflow: hidden;
+  }
+  .v120_35 {
+    width: 115px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 284px;
+    left: 94px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v120_30 {
+    width: 47px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 447px;
+    left: 173px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .v120_38 {
+    width: 64px;
+    height: 27px;
+    background: rgba(146,100,192,1);
+    opacity: 1;
+    position: absolute;
+    top: 384px;
+    left: 160px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  .v120_39 {
+    width: 27px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 389px;
+    left: 179px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+  }
