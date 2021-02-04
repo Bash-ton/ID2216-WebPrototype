@@ -2,7 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 import React, {Component} from "react";
 import {BrowserRouter as Router, Route} from "react-router-dom";
-import ChooseSchedule from './components/chooseSchedule';
 import DailyWorkoutOverview from './components/dailyWorkoutOverview';
 import DetailedSchedule from './components/detailedSchedule';
 import LoginPage from './components/loginPage';
@@ -18,7 +17,6 @@ class App extends Component {
     return(
       <Router>
          <Route exact path = "/" component ={LoginPage}/>
-        <Route exact path = "/choose-schedule" component ={ChooseSchedule}/>
         <Route exact path = "/daily-workout-overview" component ={DailyWorkoutOverview}/>
         <Route exact path = "/detailed-schedule" component ={DetailedSchedule}/>
         <Route exact path = "/overview-schedule" component ={OverviewSchedule}/>
