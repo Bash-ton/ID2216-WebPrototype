@@ -6,7 +6,7 @@ import ChooseSchedule from './components/chooseSchedule';
 import DailyWorkoutOverview from './components/dailyWorkoutOverview';
 import DetailedSchedule from './components/detailedSchedule';
 import LoginPage from './components/loginPage';
-import OvervieSchedule from './components/overviewSchedule';
+import OverviewSchedule from './components/overviewSchedule';
 import PremadeScheduleType from './components/premadeScheduleType';
 import ScheduleType from './components/scheduleType';
 import SinginPage from './components/signInPage';
@@ -21,7 +21,7 @@ class App extends Component {
         <Route exact path = "/choose-schedule" component ={ChooseSchedule}/>
         <Route exact path = "/daily-workout-overview" component ={DailyWorkoutOverview}/>
         <Route exact path = "/detailed-schedule" component ={DetailedSchedule}/>
-        <Route exact path = "/overvie-schedule" component ={OvervieSchedule}/>
+        <Route exact path = "/overview-schedule" component ={OverviewSchedule}/>
         <Route exact path = "/premade-scheduletype" component ={PremadeScheduleType}/>
         <Route exact path = "/schedule-type" component ={ScheduleType}/>
         <Route exact path = "/sing-in-page" component ={SinginPage}/>
