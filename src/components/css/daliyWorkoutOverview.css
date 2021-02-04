@@ -293,3 +293,17 @@
     opacity: 1;
     text-align: left;
 }
+.test{
+    width: 22px;
+    height: 55px;
+    background: rgba(196,196,196,1);
+    opacity: 1;
+    position: absolute;
+    top: 410px;
+    left: 70px;
+    overflow: hidden;
+}
+
+.test-hidden{
+    display: none;
+}
