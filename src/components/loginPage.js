@@ -18,8 +18,8 @@ class LoginPage extends Component{
             <div class="v120_25">
                 <div class="v120_26"></div>
                 <span class="v120_27">Log in</span>
-                <input class="v120_28"></input>
-                <input class="v120_29"></input>
+                <input type="password" class="v120_28"></input>
+                <input  class="v120_29"></input>
                 <button class="v120_30"onClick={this.signup}>Sign up</button>
                 <button class="v120_38" onClick={this.login}>login</button>
             </div>
