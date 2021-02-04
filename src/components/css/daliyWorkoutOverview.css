@@ -187,7 +187,7 @@
 .v151_413 {
     width: 47px;
     height: 36px;
-    background: url("../../images/homeICON.png");
+    background: url("../../images/statICON.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -223,7 +223,7 @@
 .v151_416 {
     width: 35px;
     height: 32px;
-    background: url("../../images/homeICON.png");
+    background: url("../../images/editScheduleICON.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -307,3 +307,4 @@
 .test-hidden{
     display: none;
 }
+

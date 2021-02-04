@@ -7,17 +7,30 @@ const DailyWorkoutOverview = () =>{
 
 
 
-        const handleShowMoreBtn = () => {
-                if(document.querySelector(".test-hidden")){
-                        document.querySelector(".test-hidden").className = "test";
-                }else{
-                        document.querySelector(".test").className = "test-hidden";
-                }
-        }
+    const handleShowMoreBtn = () => {
+            if(document.querySelector(".test-hidden")){
+                    document.querySelector(".test-hidden").className = "test";
+            }else{
+                    document.querySelector(".test").className = "test-hidden";
+            }
+    }
 
-        const handleStatsButton = () =>{
-                window.location="/stats-view";
-        }
+    const handleStatsButton = () =>{
+            window.location="/stats-view";
+    }
+
+    const handleGoToStatsButton = () =>{
+        window.location="/stats-view";
+    }
+
+
+    const handleGoToHomeButton = () =>{
+        window.location=window.location;
+    }
+
+    const handleGoEditScheduleButton = () =>{
+        window.location="/overview-schedule";
+    }
 
     return(
         <div className="v120_44">
@@ -72,10 +85,10 @@ const DailyWorkoutOverview = () =>{
             <div className="v151_76"></div>
             <div className="v151_77"></div>
             <div className="name"></div>
-            <div className="v151_413"></div>
-            <div className="v151_414"></div>
+            <div onClick={() => {handleGoToStatsButton()}} className="v151_413"></div>
+            <div onClick={() => {handleGoToHomeButton()}} className="v151_414"></div>
             <div className="v151_415"></div>
-            <div className="v151_416"></div>
+            <div onClick={() => {handleGoEditScheduleButton()}} className="v151_416"></div>
             <div className="v196_1"></div>
             <span className="v196_2">mark all </span>
             <div className="v242_2"></div>

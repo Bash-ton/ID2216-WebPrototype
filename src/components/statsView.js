@@ -3,6 +3,19 @@ import React from "react";
 import './css/statsView.css'
 
 
+const handleGoToStatsButton = () =>{
+    window.location="/stats-view";
+}
+
+
+const handleGoToHomeButton = () =>{
+    window.location="/daily-workout-overview";
+}
+
+const handleGoEditScheduleButton = () =>{
+    window.location="/overview-schedule";
+}
+
 const StatsView = () => {
 
     return(
@@ -37,10 +50,11 @@ const StatsView = () => {
             <span class="v160_28">-</span>
             <span class="v160_31">-</span>
             <div class="name"></div>
-            <div class="v151_385"></div>
-            <div class="v151_386"></div>
-            <div class="v151_387"></div>
-            <div class="v151_388"></div>
+
+            <div onClick={() => {handleGoToStatsButton()}} class="v151_385"></div>
+            <div  onClick={() => {handleGoToHomeButton()}} class="v151_386"></div>
+            <div  onClick={() => {handleGoToHomeButton()}} class="v151_387"></div>
+            <div  onClick={() => {handleGoEditScheduleButton()}} class="v151_388"></div>
         </div>
     );
 }

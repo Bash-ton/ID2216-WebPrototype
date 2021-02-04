@@ -7,14 +7,27 @@ const OverviewSchedule = () => {
             window.location = '/detailed-schedule';
         }
 
+    const handleGoToStatsButton = () =>{
+        window.location="/stats-view";
+    }
+
+
+    const handleGoToHomeButton = () =>{
+        window.location="/daily-workout-overview";
+    }
+
+    const handleGoEditScheduleButton = () =>{
+        window.location="/overview-schedule";
+    }
+
         return(
             <div className="v180_13">
                     <div className="name"></div>
 
-                    <div className="v180_17"></div>
-                    <div className="v180_18"></div>
-                    <div className="v180_19"></div>
-                    <div className="v180_20"></div>
+                    <div onClick={() => {handleGoToStatsButton()}} className="v180_17"></div>
+                    <div  onClick={() => {handleGoToHomeButton()}} className="v180_18"></div>
+                    <div onClick={() => {handleGoToHomeButton()}} className="v180_19"></div>
+                    <div onClick={() => {handleGoEditScheduleButton()}} className="v180_20"></div>
 
                     <div className="v180_21"></div>
                     <div onClick={() =>{handleAddSchedule()}} className="v180_22"></div>
